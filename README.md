@@ -32,6 +32,7 @@
 - Linux
 - Git
 - GitHub
+- GitLab
 - logger / logging
 - linters
 - pytest
@@ -66,6 +67,9 @@
 - Recursion
 - Matrix-based tasks
 - Math / математические подходы к решению задач
+- ScanLine
+- Segment Tree
+- Linked List
 
 Стараюсь писать решения, которые не просто работают, а являются понятными, эффективными и удобными для дальнейшего развития.
 
