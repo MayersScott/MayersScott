@@ -1,134 +1,37 @@
-# Привет, я Python Backend Developer 👋
+## Дмитрий Виноградов
 
-Я backend-разработчик, который специализируется на создании надежных, масштабируемых и поддерживаемых сервисов на Python. Люблю проектировать архитектуру, автоматизировать рутинные процессы, оптимизировать производительность и превращать сложные задачи в понятные и рабочие решения.
+Python-разработчик. Бэкенд, сетевые инструменты, опенсорс.
 
-Работаю с веб-разработкой, API, асинхронными сервисами, Telegram-ботами, очередями задач, базами данных и контейнеризацией. Умею не только писать код, но и думать о качестве проекта в целом: от структуры приложения и читаемости кода до тестирования, логирования и удобства поддержки.
+### [rkn-block-checker](https://github.com/MayersScott/rkn-block-checker) — 1k+ ⭐
 
-## 🔧 Основной стек
+CLI на Python, который послойно (DNS → TCP → TLS → HTTP) диагностирует блокировки РКН/ТСПУ и говорит не «сайт не открылся», а *что именно* сломалось: DNS-подмена, TCP-reset, DPI по SNI или ISP-заглушка.
 
-### Backend / Python
-- Python 3
-- FastAPI
-- Django
-- SQLAlchemy
-- Celery
-- asyncio
-- multiprocessing
-- typing
-- JSON
-- HTTP/HTTPS
-- OpenAPI / Swagger
+Опубликован на [PyPI](https://pypi.org/project/rkn-block-checker/) и [AUR](https://aur.archlinux.org/packages/rkn-block-checker), запускается одной командой:
 
-### Telegram / Bots
-- aiogram
+```bash
+pip install rkn-block-checker && rkn-check
+```
 
-### Databases
-- PostgreSQL
-- SQLite
-- Redis
+**Упоминания:**
+- 📰 [Хабр — новость о релизе](https://habr.com/ru/news/1031950/)
+- 📝 [Хабр — моя статья «Что именно сломалось: разбираем блокировки РКН/ТСПУ по слоям сетевого стека»](https://habr.com/ru/articles/1032572/)
+- 📡 [Эксплойт](https://t.me/exploitex/33502) (2M подписчиков)
+- 🔒 [Anti-Malware.ru](https://www.anti-malware.ru/news/2026-05-06-111332/49940), [Рамблер](https://news.rambler.ru/games/56407117-vyshla-utilita-rkn-block-checker-dlya-diagnostiki-blokirovok/), [Политсовет](https://politsovet.ru/87404-it-startapy-zanyalis-blokirovkami-rkn.html), [VGTimes](https://vgtimes.ru/tech-and-hardware/155720-ne-ponimaete-pochemu-sayt-ne-otkryvaetsya-delo-v-blokirovkah-novaya-utilita-pokazhet-prichinu-za-paru-komand.html)
 
-### DevOps / Tools
-- Docker
-- Linux
-- Git
-- GitHub
-- GitLab
-- logger / logging
-- linters
-- pytest
+### Чем ещё занимаюсь
 
-## 🧠 Что я умею
+Бэкенды на FastAPI/Django, Telegram-боты на aiogram, асинхронные сервисы, очереди, всё что связано с Python и сетью.
 
-- Разрабатывать backend-приложения и REST API на Python
-- Создавать быстрые и удобные API с FastAPI
-- Разрабатывать и поддерживать проекты на Django
-- Проектировать структуру приложений и выстраивать понятную архитектуру
-- Работать с асинхронным кодом через `asyncio`
-- Писать Telegram-ботов на `aiogram`
-- Настраивать фоновые и отложенные задачи через `Celery + Redis`
-- Работать с реляционными базами данных: PostgreSQL, SQLite
-- Использовать SQLAlchemy для ORM и работы с БД
-- Контейнеризировать приложения через Docker
-- Работать в Linux-окружении
-- Покрывать код тестами с помощью `pytest`
-- Использовать линтеры и следить за качеством кода
-- Настраивать логирование и отладку приложений
-- Описывать и документировать API через OpenAPI / Swagger
-- Работать с Git и GitHub в командной и solo-разработке
+### Стек
 
-## 📚 Алгоритмы и computer science
+**Основное:** Python, FastAPI, Django, SQLAlchemy, PostgreSQL, Redis, Celery, asyncio, aiogram
+**Инфра:** Docker, Linux, GitHub Actions, pytest
 
-Мне интересны не только прикладные задачи, но и алгоритмическая часть разработки. Знаком и применяю на практике:
+### Связь
 
-- BFS
-- DFS
-- Dynamic Programming
-- Binary Search
-- Recursion
-- Matrix-based tasks
-- Math / математические подходы к решению задач
-- ScanLine
-- Segment Tree
-- Linked List
-
-Стараюсь писать решения, которые не просто работают, а являются понятными, эффективными и удобными для дальнейшего развития.
-
-## 💡 Подход к разработке
-
-В работе я ценю:
-
-- чистый и читаемый код
-- понятную структуру проекта
-- типизацию там, где она реально помогает
-- тестируемость
-- предсказуемое поведение системы
-- логирование и наблюдаемость
-- масштабируемость решений
-- аккуратную работу с БД, очередями и внешними API
-
-Для меня хороший код — это не только «работает», но и:
-- легко читается,
-- просто поддерживается,
-- удобно расширяется,
-- не ломается от малейших изменений.
-
-## 🚀 Чем могу быть полезен
-
-Я могу участвовать в разработке проектов, где нужно:
-
-- написать backend с нуля
-- разработать REST API
-- создать Telegram-бота
-- подключить базу данных
-- реализовать асинхронную обработку задач
-- добавить очереди и фоновые воркеры
-- упаковать проект в Docker
-- покрыть код тестами
-- улучшить качество и структуру существующего кода
-- оптимизировать производительность и логику приложения
-
-## 📈 Сейчас мне особенно интересны
-
-- backend-разработка на Python
-- высоконагруженные и асинхронные сервисы
-- API-first подход
-- автоматизация процессов
-- архитектура приложений
-- инструменты для качества кода
-- production-ready решения
-
-## 🤝 Открыт к сотрудничеству
-
-Буду рад участвовать в интересных проектах, связанных с:
-- Python backend development
-- FastAPI / Django
-- Telegram bots
-- API development
-- async services
-- automation tools
-- data processing
-- infrastructure-friendly applications
+- 🌐 [mayersscott.ru](https://mayersscott.ru/)
+- ✈️ [@mayers_scott](https://t.me/mayers_scott)
 
 ---
 
-⭐ Люблю писать код, который решает реальные задачи, и постоянно развиваюсь как инженер.
+<sub>Открыт к интересным проектам: бэкенд, сетевые инструменты, опенсорс.</sub>
