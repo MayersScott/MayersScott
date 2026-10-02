@@ -1,37 +1,51 @@
-## Дмитрий Виноградов
+# Виноградов Дмитрий Андреевич
+### Backend Разработчик (Python)
 
-Python-разработчик. Бэкенд, сетевые инструменты, опенсорс.
-
-### [rkn-block-checker](https://github.com/MayersScott/rkn-block-checker) — 1k+ ⭐
-
-CLI на Python, который послойно (DNS → TCP → TLS → HTTP) диагностирует блокировки РКН/ТСПУ и говорит не «сайт не открылся», а *что именно* сломалось: DNS-подмена, TCP-reset, DPI по SNI или ISP-заглушка.
-
-Опубликован на [PyPI](https://pypi.org/project/rkn-block-checker/) и [AUR](https://aur.archlinux.org/packages/rkn-block-checker), запускается одной командой:
-
-```bash
-pip install rkn-block-checker && rkn-check
-```
-
-**Упоминания:**
-- 📰 [Хабр — новость о релизе](https://habr.com/ru/news/1031950/)
-- 📝 [Хабр — моя статья «Что именно сломалось: разбираем блокировки РКН/ТСПУ по слоям сетевого стека»](https://habr.com/ru/articles/1032572/)
-- 📡 [Эксплойт](https://t.me/exploitex/33502) (2M подписчиков)
-- 🔒 [Anti-Malware.ru](https://www.anti-malware.ru/news/2026-05-06-111332/49940), [Рамблер](https://news.rambler.ru/games/56407117-vyshla-utilita-rkn-block-checker-dlya-diagnostiki-blokirovok/), [Политсовет](https://politsovet.ru/87404-it-startapy-zanyalis-blokirovkami-rkn.html), [VGTimes](https://vgtimes.ru/tech-and-hardware/155720-ne-ponimaete-pochemu-sayt-ne-otkryvaetsya-delo-v-blokirovkah-novaya-utilita-pokazhet-prichinu-za-paru-komand.html)
-
-### Чем ещё занимаюсь
-
-Бэкенды на FastAPI/Django, Telegram-боты на aiogram, асинхронные сервисы, очереди, всё что связано с Python и сетью.
-
-### Стек
-
-**Основное:** Python, FastAPI, Django, SQLAlchemy, PostgreSQL, Redis, Celery, asyncio, aiogram
-**Инфра:** Docker, Linux, GitHub Actions, pytest
-
-### Связь
-
-- 🌐 [mayersscott.ru](https://mayersscott.ru/)
-- ✈️ [@mayers_scott](https://t.me/mayers_scott)
+[Telegram](https://t.me/mayers_scott) | [Email](mailto:mayersscott21@gmail.com) | [GitHub](https://github.com/MayersScott)
 
 ---
 
-<sub>Открыт к интересным проектам: бэкенд, сетевые инструменты, опенсорс.</sub>
+## О себе
+Проживаю в Москве. Английский язык: В1+
+
+Бэкендер на Python. Main фокус на сетевых приложениях и оптимизации. Решаю  задачи (LeetCode, олимпиады) и Open Source проекты. Погружаюсь в ML и Data Science
+
+---
+
+## Ключевые проекты (Open Source)
+
+### rkn-block-checker
+> **1.6k+ GitHub Stars** | **49k+ PyPI Downloads**
+
+Инструмент для анализа сетевых блокировок
+
+- Спроектировал архитектуру многопоточных сетевых запросов, добившись высокой скорости и точности проверок
+- Настроил CI/CD: внедрил автотесты и автоматизировал публикацию релизов
+
+---
+
+## Технические навыки
+
+| Категория | Технологии |
+| :--- | :--- |
+| **Языки** | Python 3.9+, C++ |
+| **Асинхронность и оптимизация** | Asyncio, Multiprocessing, Multithreading, Оптимизация асимптотики |
+| **Веб-фреймворки и API** | FastAPI, Uvicorn, REST API, JWT, JSON, HTTP/HTTPS |
+| **Базы данных и брокеры** | PostgreSQL, SQLAlchemy, SQL, Redis, Kafka |
+| **DevOps и Сети** | Docker, Docker Compose, Nginx, Linux, Git, GitHub Actions, VPN (xray + Marzban) |
+
+---
+
+## Образование
+
+- **Московская Школа Программистов (МШП)** (2022 — н.в.)  
+  *Дополнительное IT-образование*
+- **ГБОУ Школа № 1534 «Академическая»** (2017 — н.в.)  
+  *Учащийся (10 класс)*
+
+---
+
+## Достижения и олимпиады
+
+- Призер муниципального этапа ВСОШ по информатике
+- Призер муниципального этапа ВСОШ по математике
