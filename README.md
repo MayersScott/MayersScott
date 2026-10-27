@@ -15,7 +15,7 @@
 ## Ключевые проекты (Open Source)
 
 ### rkn-block-checker
-> **1.6k+ GitHub Stars** | **49k+ PyPI Downloads**
+> **1.6k+ GitHub Stars** | **50k+ PyPI Downloads**
 
 Инструмент для анализа сетевых блокировок
 
